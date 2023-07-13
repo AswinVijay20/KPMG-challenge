@@ -9,4 +9,4 @@ https://learn.microsoft.com/en-us/azure/virtual-machines/instance-metadata-servi
     Linux - shell
     curl -s -H Metadata:true --noproxy "*" "http://169.254.169.254/metadata/instance?api-version=2021-02-01" | jq
 
-**The responsee is a JSON object**
+**The response is a JSON object**
